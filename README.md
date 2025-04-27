@@ -35,4 +35,41 @@ Every row (observation) in the dataset represents a video game and the columns (
 
 ● Release_Date - The game's release date.
 
+First part:-
+There are 1569 rows in the dataset and 10columns.
+The numerical values in the dataset are the following:-NA_Sales,EU_Sales,JP_Sales,Other_Sales,Global_Sale,Release_Date
+all the categorical features in the dataset are the following: Name,Platform,Genre,Publisher
+
+1.Used filtering:-
+First I tried to Remove games with an empty value in the Global_Sales column and have less than 0.1M global sales:-
+
+For that:-I  Filtered the Global_Sales column:
+
+Clicked the filter button.
+
+Filtered by Blanks first and deleted those rows.
+
+Then Filtered by Numbers:
+
+Choosed "Less than" 0.1 and deleted those rows too.
+
+for deletion:-
+
+
+
+Click the first row number (the first filtered row).
+
+Then press Shift on your keyboard and click the last row number.
+
+This will select everything between.
+
+Once all the rows are highlighted (you'll see them shaded), you can:
+
+Right-click on any selected row number
+
+Choose Delete Row.
+
+copied the result to sheet1.
+
+
 

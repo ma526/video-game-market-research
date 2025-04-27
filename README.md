@@ -16,12 +16,23 @@ Fields
 Every row (observation) in the dataset represents a video game and the columns (features) are: 
 
 ● Name - The game's name
+
 ● Platform - Platform of the game's release (i.e. PC,PS4, etc.)
+
 ● Genre - Genre of the game
+
 ● Publisher - Publisher of the game
+
 ● NA_Sales - units sold in North America (in millions)
+
 ● EU_Sales - units sold in Europe (in millions)
+
 ● JP_Sales - units sold in Japan (in millions)
+
 ● Other_Sales - units sold in the rest of the world (in millions)
-● Global_Sales - Total units sold worldwide (in millions).
+
+● Global_Sales - Total units sold worldwide (in millions)
+
 ● Release_Date - The game's release date.
+
+

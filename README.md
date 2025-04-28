@@ -35,6 +35,7 @@ Every row (observation) in the dataset represents a video game and the columns (
 
 ● Release_Date - The game's release date.
 
+
 First part:-
 There are 1569 rows in the dataset and 10columns.
 
@@ -49,6 +50,36 @@ for deletion:-Click the first row number (the first filtered row).Then press Shi
  b)copied the result to sheet1.
 
  c)Tried to Apply named ranges to each column so you can easily call them in the next upcoming steps if needed.
+  Open your Google Sheet.
+
+Selected the first column:
+
+For example, we have to click on the first data cell under your header (not the header itself).
+
+Drag down to select all the values in that column.
+
+Go to the menu at the top:
+
+Click Data → then Named ranges.
+
+A panel will open on the right side called Named ranges.
+
+In the panel:
+
+Type a name for the range (example: Global_Sales).
+
+Click Done.
+
+Repeated steps 2–5 for all the columns.
+
+d)Trying to find on what date earliest game was released?Click the Release Date column.
+
+Went to Data → Sort A → Z (Oldest to Newest).
+
+The first row after sorting will show the earliest release date and the game.
+It's 2018-01-01
+
+e)How many rows in filtered dataset?
 
 
 

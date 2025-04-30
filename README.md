@@ -36,6 +36,7 @@ Every row (observation) in the dataset represents a video game and the columns (
 ● Release_Date - The game's release date.
 
 
+
 First part:-
 There are 1569 rows in the dataset and 10columns.
 
@@ -79,7 +80,36 @@ Went to Data → Sort A → Z (Oldest to Newest).
 The first row after sorting will show the earliest release date and the game.
 It's 2018-01-01
 
-e)How many rows in filtered dataset?
+e)How many rows in filtered dataset? 205
 
+
+2)Regional sales:- a)suming up total sales for each region
+Used this formula for North America sales:-=SUM(NA_Sales) and similar way for all sales
+	Region	All sales	
+	North America	60.53	millions of units
+	Europe	48.18	millions of units
+	Japan	8.4	millions of units
+	Rest of the world	16.86	millions of units
+	Global	133.97	millions of units
+
+ 3)Top categories
+ a)calculating global sales for top three categories with the following formula:-=SUMIFS(Global_Sale, Platform, "PS4", Release_date, ">2010")
+ same formula for other two categories
+ Top 3 platforms by global sales	Global Sales
+PS4	78.43
+XOne	34.57
+NS	16.74
+
+b)Calculating the number of games published on each of the platforms in cells using formula
+=COUNTIF(Platform,"PS4")
+Top 3 platforms by global sales	Global Sales	Number of Games
+PS4	78.43	88
+XOne	34.57	48
+NS	16.74	50
+
+d)
+
+=SUMIFS(Global_Sale,Genre,"Shooter",Release_Date,">2010")
+c)
 
 
